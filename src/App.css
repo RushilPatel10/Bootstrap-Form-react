@@ -1,0 +1,38 @@
+
+body {
+  background-color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+
+.centered-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+}
+
+.dark-form {
+  background-color: #222;
+  color: #fff;
+  border-radius: 8px;
+  width: 400px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+input, textarea, select {
+  background-color: #333;
+  color: #fff;
+  border: 1px solid #555;
+}
+
+button {
+  background-color: #444;
+  color: #fff;
+}
+
+table {
+  color: #fff;
+}
